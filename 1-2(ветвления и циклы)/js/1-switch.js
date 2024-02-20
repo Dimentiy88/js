@@ -65,10 +65,10 @@
 // } else if (stars === 5) {
 //   price = 120;
 // } else {
-//   console.log('Такого кол-ва звезд нет');
+//   console.log("Такого кол-ва звезд нет");
 // }
 
-// console.log(price);
+// console.log("price: ", price);
 
 // switch (stars) {
 //   case 1:
@@ -86,8 +86,10 @@
 //     break;
 
 //   default:
-//     console.log('Такого кол-ва звезд нет');
+//     console.log("Такого кол-ва звезд нет");
 // }
+
+// console.log("price: ", price);
 
 /*
  * Напиши скрипт выбора опции доставки товара.
@@ -101,11 +103,11 @@
  */
 
 //  1. сделать переменные
-const option = 1526;
+const option = 4;
+
 let message = "";
 
 // 2. сделать switch 1 2 3
-// 3. в каждом кейсе записать в message строку
 switch (option) {
   case 1:
     message = "Вы сможете забрать товар завтра с 12:00 в нашем офисе";
@@ -120,8 +122,7 @@ switch (option) {
     break;
 
   default:
-    message = "Вам перезвонит менеджер";
+    console.log("Вам перезвонит менеджер");
 }
-
 // 4. сделать лог message
 console.log(message);
